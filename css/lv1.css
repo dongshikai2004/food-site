@@ -1,0 +1,88 @@
+/* CSS Document */
+#main h1{
+	border-bottom:1px black solid;
+	width:auto;
+	font:24px/1.5em 黑体;
+	margin:40px;
+}
+.lft_img{
+	float:left;
+	width:50%;
+	margin:10px 40px;
+}
+.lft_img img{
+	max-width: 100%;
+	width:auto;
+	height:45%;
+}
+.rgt_txt{
+	width:40%;
+	height:200px;
+	float:left;
+	}
+.rgt_txt p,.lft_txt p{
+	font:20px/1.4em 隶书;
+	margin-bottom:1.6em;
+}
+.rgt_img{
+	float:left;
+	width:50%
+}
+.rgt_img img{
+	max-width: 100%;
+	width:auto;
+	height:50%;
+}
+.lft_txt{
+	width:40%;
+	height:200px;
+	float:left;
+	margin:0px 40px;
+	}
+.clear{
+	clear:both;
+}
+
+@media (max-width:992px) {
+	.lft_img{
+		float:left;
+		width:90%;
+	}
+	.lft_img img{
+		max-width: 100%;
+		width:100%;
+		height:45%;
+	}
+	.rgt_txt{
+		width:auto;
+		height:auto;
+		float:left;
+		margin: 40px;
+		}
+	.rgt_txt p,.lft_txt p{
+		font:20px/1.4em 隶书;
+		margin-bottom:1.6em;
+	}
+	.rgt_img{
+		float:left;
+		width:90%;
+	}
+	.rgt_img img{
+		width:100%;
+		height:50%;
+	}
+	.lft_txt{
+		width:auto;
+		height:auto;
+		float:left;
+		margin: 40px;
+		}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
