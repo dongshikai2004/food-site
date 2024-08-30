@@ -18,8 +18,8 @@
 	flex:1;
 }
 .nav-item {
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 1%;
+	margin-right: 1%;
 	/* 增加列表项之间的间距 */
 }
 body,html {
@@ -88,7 +88,7 @@ body,html {
 	left:400px;
 }
 #main{
-	/* background:#e00f0f; */
+	background:#ffffff;
 	/* background-image: linear-gradient(to right, #f8b8a0, #ee7878,#e16e6e); */
 	/* position:relative; */
 	top:40px;
@@ -104,15 +104,17 @@ body,html {
     text-align:center;
     }
 #nav li a{
+	background-color: #e6e6e6;
 	display:block;
-	padding:10px 0px 6px;
+	padding:10px 30px 6px;
 	font:18px 楷体;
 	text-decoration: none;
 	color:black;
-	box-shadow: rgb(0 0 0 / 20%) 1px 2px 1px -1px,rgb(0 0 0 / 15%) 1px 1px 1px 1px,rgb(0 0 0 / 6%) 1px 1px 3px 1px;;
+	/* box-shadow: rgb(0 0 0 / 20%) 1px 2spx 1px -1px,rgb(0 0 0 / 15%) 1px 1px 1px 1px,rgb(0 0 0 / 6%) 1px 1px 3px 1px;; */
 	}
 #nav li a:hover{
-	box-shadow: rgb(0 0 0 / 80%) 1px 2px 1px -1px,rgb(0 0 0 / 78%) 1px 1px 1px 1px,rgb(0 0 0 / 42%) 1px 1px 3px 1px;;
+	background-color: #adadad;
+	/* box-shadow: rgb(0 0 0 / 80%) 1px 2px 1px -1px,rgb(0 0 0 / 78%) 1px 1px 1px 1px,rgb(0 0 0 / 42%) 1px 1px 3px 1px;; */
 	}
 #nav li a#current{
 	
@@ -127,6 +129,10 @@ body,html {
 	}
 #footer p{
 	text-align:center;
+}
+.contain{
+	box-shadow: rgb(0 0 0 / 30%) 1px 2px 1px -1px,rgb(0 0 0 / 28%) 1px 1px 1px 1px,rgb(0 0 0 / 22%) 1px 1px 3px 1px;
+	margin-top:20px;
 }
 @media (max-width: 992px) {
 	#nav {

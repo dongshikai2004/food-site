@@ -17,12 +17,13 @@
 .lft_img{
 	float:left;
 	width:50%;
+	height: auto;
 	margin:10px 40px;
 }
 .lft_img img{
 	max-width: 100%;
 	width:auto;
-	height:45%;
+	height: auto;
 }
 .rgt_txt{
 	width:40%;
@@ -36,12 +37,13 @@
 }
 .rgt_img{
 	float:left;
+	height: auto;
 	width:50%
 }
 .rgt_img img{
 	max-width: 100%;
 	width:auto;
-	height:50%;
+	height: auto;
 }
 .lft_txt{
 	width:40%;
@@ -56,6 +58,7 @@
 @media (max-width:992px) {
 	.lft_img{
 		float:left;
+		height: auto;
 		width:90%;
 	}
 	.lft_img img{
