@@ -44,7 +44,8 @@ body,html {
 #top{
 	width:1000px;
 	height:100%;
-	margin:auto;
+    margin-left: 10px;
+	/* margin:auto; */
 	font:12px;
 	font-family: mainfont1;
 }
@@ -186,4 +187,8 @@ body {
     position:relative;
     min-height: 100%;
 	box-sizing: border-box;
+}
+.logo{
+    margin: auto;
+    width: 80%;
 }
