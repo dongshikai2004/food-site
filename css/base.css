@@ -87,7 +87,7 @@ body,html {
 #main{
 	background:#ffffff;
 	top:40px;
-
+	padding: 20px;
 }
 #nav {
 	/* background:#F2CAB3; */
