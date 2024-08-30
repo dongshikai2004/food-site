@@ -163,6 +163,11 @@ body,html {
     padding-top: auto;
     margin: 20px;
 }
+#maintxt .contain {
+    border-radius: 20px;
+    background: #fff70a35;
+    color: rgb(43, 11, 111);
+}
 .container{
     padding: 20px;
 }
