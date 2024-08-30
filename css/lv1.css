@@ -27,7 +27,7 @@
 }
 .rgt_txt{
 	width:40%;
-	height:200px;
+	height:auto;
 	float:left;
 	}
 .rgt_txt p,.lft_txt p{
@@ -47,7 +47,7 @@
 }
 .lft_txt{
 	width:40%;
-	height:200px;
+	height:auto;
 	float:left;
 	margin:0px 40px;
 	}
