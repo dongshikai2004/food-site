@@ -40,7 +40,7 @@
 }
 
 #maintxt p,#maintxt ol li{
-	font:16px/1.8em 宋体;
+	font:16px/1.8em 'Source Han Serif';
 	margin-left:40px;
 }
 
@@ -50,7 +50,7 @@
 }
 #sidebar p{
 	margin:0px 20px 20px 40px;
-	font:16px/1.8em 宋体;
+	font:16px/1.8em 'Source Han Serif';
 }
 @media (max-width:992px) {
 	#maintxt{
