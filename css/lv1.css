@@ -1,8 +1,17 @@
 /* CSS Document */
+@font-face {
+    font-family: mainfont;
+    src: url(../font/YSBTH.TTF);
+}
+@font-face {
+    font-family: mainfont1;
+    src: url(../font/STXINGKA.TTF);
+}
 #main h1{
 	border-bottom:1px black solid;
 	width:auto;
-	font:24px/1.5em 黑体;
+	font:34px/1.5em;
+	font-family: mainfont;
 	margin:40px;
 }
 .lft_img{
@@ -21,7 +30,8 @@
 	float:left;
 	}
 .rgt_txt p,.lft_txt p{
-	font:20px/1.4em 隶书;
+	font:52px;
+	/* font-family: mainfont1; */
 	margin-bottom:1.6em;
 }
 .rgt_img{
@@ -59,10 +69,6 @@
 		float:left;
 		margin: 40px;
 		}
-	.rgt_txt p,.lft_txt p{
-		font:20px/1.4em 隶书;
-		margin-bottom:1.6em;
-	}
 	.rgt_img{
 		float:left;
 		width:90%;

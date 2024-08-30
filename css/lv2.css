@@ -1,8 +1,10 @@
 /* CSS Document */
 
 #main h2{
-	background:#DC0;
-	font:18px 黑体;
+	/* background-image: linear-gradient(to right, #f8b8a0, #ee7878,#e16e6e); */
+	box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,rgb(0 0 0 / 14%) 0px 1px 1px 0px;
+	font:28px;
+	font-family: mainfont1;
 	margin:40px 0px;
 	padding:8px 40px;
 }
@@ -13,7 +15,11 @@
 }
 #sidebar{
 	float: right;
-	background:#D6EA82;
+	/* background:#D6EA82; */
+	/* background-image: linear-gradient(to right, #ff9c50, #eb6517,#e1b36e); */
+	/* background-color:#e16e6e; */
+	/* background-image: linear-gradient(to right, #e16e6e, #ee7878,#e16e6e); */
+	box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,rgb(0 0 0 / 24%) 0px 1px 1px 0px ,rgb(0 0 0 / 22%) 0px 1px 3px 0px;
 	width:30%;
 	height:125%;
 	padding-top:1%;
@@ -40,7 +46,7 @@
 }
 #sidebar p{
 	margin:0px 20px 20px 40px;
-	/* line-height:1.2em; */
+	font:16px/1.8em 宋体;
 }
 @media (max-width:992px) {
 	#maintxt{
