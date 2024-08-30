@@ -60,14 +60,14 @@ body,html {
 	width: 50px;
 	height: 20px;
 	font: 14px 楷体;
-	text-align: center;	
+	text-align: center;
 	transition: all 1s;
 	border-radius: 3px;
 	cursor: pointer;
 }
 #sbmt:hover {
 	background-color: #d62c40;
-	
+
 }
 
 #bread{
@@ -80,7 +80,7 @@ body,html {
 #toplist li{
 	display:inline-block;
 	margin:5px;
-	
+
 }
 #topnav #topform{
 	position:absolute;
@@ -95,29 +95,41 @@ body,html {
 }
 #nav {
 	/* background:#F2CAB3; */
+    background-color: #dcdcdc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
 	border-bottom: #bcbcbc solid 1px;
+    border-radius: 20px;
+	box-shadow: rgb(0 0 0 / 30%) 1px 2px 1px -1px,rgb(0 0 0 / 28%) 1px 1px 1px 1px,rgb(0 0 0 / 22%) 1px 1px 3px 1px;
+
 	}
 #nav li{
 	/* display:inline-block; */
     /* width:12%; */
-	
+
     text-align:center;
     }
 #nav li a{
 	background-color: #dcdcdc;
 	display:block;
 	padding:10px 30px 6px;
-	font:18px 楷体;
+	font:18px 黑体;
 	text-decoration: none;
 	color:black;
 	/* box-shadow: rgb(0 0 0 / 20%) 1px 2spx 1px -1px,rgb(0 0 0 / 15%) 1px 1px 1px 1px,rgb(0 0 0 / 6%) 1px 1px 3px 1px;; */
 	}
 #nav li a:hover{
 	background-color: #adadad;
+    transition: 200ms;
 	/* box-shadow: rgb(0 0 0 / 80%) 1px 2px 1px -1px,rgb(0 0 0 / 78%) 1px 1px 1px 1px,rgb(0 0 0 / 42%) 1px 1px 3px 1px;; */
 	}
 #nav li a#current{
-	
+
 	/* background:#E8A94C; */
 }
 #footer{
@@ -130,9 +142,25 @@ body,html {
 #footer p{
 	text-align:center;
 }
+.img-responsive {
+    border-radius: 20px;
+}
+.img-responsive:hover {
+    /* opacity: 0.3; */
+    /* filter:brightness(50%); */
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 700ms;
+}
 .contain{
 	box-shadow: rgb(0 0 0 / 30%) 1px 2px 1px -1px,rgb(0 0 0 / 28%) 1px 1px 1px 1px,rgb(0 0 0 / 22%) 1px 1px 3px 1px;
 	margin-top:20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: auto;
+    margin: 20px;
+    /* overflow:auto; */
+}
+.container{
+    padding: 20px;
 }
 @media (max-width: 992px) {
 	#nav {
