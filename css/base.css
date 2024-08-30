@@ -133,6 +133,14 @@ body,html {
 #footer p{
 	text-align:center;
 }
+#box {
+    padding-bottom: 200px;
+}
+#sidebar {
+    padding-bottom: 20px;
+    padding-top: 1px;
+}
+
 .img-responsive {
     border-radius: 20px;
 }
